@@ -26,8 +26,8 @@ function App() {
 
   return (
     <>
+    <AdminLoginPage/>
       <Routes>
-      <Route exact path="/" element={<AdminLoginPage />} />
         <Route exact path="/dashboard" element={<Dashboard />} />
       </Routes>
     </>
